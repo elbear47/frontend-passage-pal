@@ -1,0 +1,7 @@
+.btn-default,.btn-primary,.btn-success,.btn-info,.btn-warning,.btn-danger,.btn-outline-dark {
+    border-radius:23px;
+}
+
+.buttons-right {
+    display: flex;
+}
