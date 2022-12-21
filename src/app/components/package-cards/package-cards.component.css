@@ -1,3 +1,17 @@
 .btn-default,.btn-primary,.btn-success,.btn-info,.btn-warning,.btn-danger {
     border-radius:23px;
 }
+
+.btn-primary{
+    background-color: #61ebb2;
+}
+.btn-primary:hover{
+    background-color: #caffe9;
+}
+.card {
+    background-color: #FBF2CF;
+}
+
+.bord-black{
+    border: 1px solid black;
+}

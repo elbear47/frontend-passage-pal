@@ -1,12 +1,14 @@
-<ul class="nav flex-column">
-    <li class="nav-item">
-      <button class="btn container">Upcoming Trips</button>
-      <!-- <a class="nav-link" (click)="navigateToUpcomingTrips()">Upcoming Trips</a> -->
+<ul class="nav flex-column bg-l-grey">
+  <li class="nav-item">
+    <a class="btn container b-border" (click)="navigateHome()">Home</a>
+  </li>    
+  <li class="nav-item">
+      <a class="btn container b-border" (click)="navigateToUpcomingTrips()">Upcoming Trips</a>
     </li>
     <li class="nav-item">
-      <a class="btn container" (click)="navigateToFindFriends()">Find Friends</a>
+      <a class="btn container b-border" (click)="navigateToFindFriends()">Find Friends</a>
     </li>
     <li class="nav-item">
-      <a class="btn container" (click)="navigateToPackageTrips()">View Package Trips</a>
+      <a class="btn container b-border" (click)="navigateToPackageTrips()">View Package Trips</a>
     </li>
   </ul>

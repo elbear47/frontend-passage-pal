@@ -8,6 +8,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { PackageCardsComponent } from './components/package-cards/package-cards.component';
+import { TopnavComponent } from './components/topnav/topnav.component';
+import { SignupPageComponent } from './components/signup-page/signup-page.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { PackageCardsComponent } from './components/package-cards/package-cards.
     LoginPageComponent,
     HomeComponent,
     SidenavComponent,
-    PackageCardsComponent
+    PackageCardsComponent,
+    TopnavComponent,
+    SignupPageComponent
   ],
   imports: [
     BrowserModule,
